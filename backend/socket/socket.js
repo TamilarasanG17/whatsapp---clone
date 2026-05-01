@@ -9,7 +9,7 @@ const socketHandler = (io) => {
             onlineUsers.set(userId, socket.id);
         });
 
-        // ✅ Send message
+        //  Send message
         socket.on('send-msg', async (data) => {
             const { sender, receiver, text } = data;
 
@@ -39,7 +39,7 @@ const socketHandler = (io) => {
             }
         });
 
-        // ✅ Typing indicator (simple & clean)
+        // Typing indicator (simple & clean)
         socket.on('typing', ({ sender, receiver }) => {
             const receiverSocket = onlineUsers.get(receiver);
             if (receiverSocket) {
@@ -54,7 +54,7 @@ const socketHandler = (io) => {
             }
         });
 
-        // ✅ Disconnect
+        //  Disconnect
         socket.on('disconnect', () => {
             for (let [id, sockId] of onlineUsers.entries()) {
                 if (sockId === socket.id) {
