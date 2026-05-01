@@ -4,7 +4,7 @@
 ### 1. Clone the repository
 
 ```
-git clone [https://github.com/your-username/whatsapp-clone.git](https://github.com/TamilarasanG17/whatsapp---clone.git)
+git clone https://github.com/TamilarasanG17/whatsapp---clone.git
 cd whatsapp-clone
 ```
 
