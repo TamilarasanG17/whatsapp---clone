@@ -94,4 +94,4 @@ npm start
 ![Chat](./screenshots/chat.png)
 
 ### ✍️ Typing Indicator
-![Typing](./screenshots/chat interface.png)
+![Typing](./screenshots/chat Interface.png)
