@@ -84,3 +84,14 @@ npm start
 3. Start chatting in real-time
 
 ---
+
+## 📸 Screenshots
+
+### 🔐 Login Page
+![Login](./screenshots/login.png)
+
+### 💬 Chat Interface
+![Chat](./screenshots/chat.png)
+
+### ✍️ Typing Indicator
+![Typing](./screenshots/chat interface.png)
