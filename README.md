@@ -55,7 +55,7 @@ MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/whatsapp
 ```
 cd backend
 npm install
-npm start
+npm run dev
 ```
 
 ---
